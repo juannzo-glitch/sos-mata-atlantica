@@ -1,0 +1,24 @@
+{
+  "name": "sosma",
+  "version": "1.0.0",
+  "description": "Projeto web SOS Mata Atlantica",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juannzo-glitch/sos-mata-atlantica.git"
+  },
+  "keywords": [],
+  "author": "Juan Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juannzo-glitch/sos-mata-atlantica/issues"
+  },
+  "homepage": "https://github.com/juannzo-glitch/sos-mata-atlantica#readme",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}

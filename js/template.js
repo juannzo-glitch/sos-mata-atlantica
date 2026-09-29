@@ -1,11 +1,24 @@
+import imagemMataAtlantica from "../img/matlantica.webp";
+import imagemMataAtlantica480 from "../img/matlantica-480.webp";
+import imagemMataAtlantica768 from "../img/matlantica-768.webp";
 export const templateInicio = `
     <section>
         <h2>Sobre o SOS Mata Atlântica</h2>
 
-        <img 
-        src="img/matlantica.jpg"
-        alt="Área preservada da Mata Atlântica com vegetação nativa"
-        >
+       <img
+    src="${imagemMataAtlantica}"
+    srcset="
+        ${imagemMataAtlantica480} 480w,
+        ${imagemMataAtlantica768} 768w,
+        ${imagemMataAtlantica} 1024w
+    "
+    sizes="(max-width: 480px) 100vw,
+           (max-width: 768px) 100vw,
+           1024px"
+    alt="Área preservada da Mata Atlântica com vegetação nativa"
+    loading="lazy"
+    decoding="async"
+>
 
 
             <p>
