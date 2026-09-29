@@ -521,4 +521,26 @@ nav a[aria-current="page"] {
     color: #144d29;
     padding: 10px;
     z-index: 1000;
-}  
+} 
+
+body.alto-contraste button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffff00;
+}
+
+body.alto-contraste input {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+body.alto-contraste label,
+body.alto-contraste legend {
+    color: #ffffff;
+}
+
+body.alto-contraste *:focus-visible {
+    outline: 3px solid #ffff00;
+    outline-offset: 3px;
+}
