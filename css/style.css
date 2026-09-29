@@ -508,3 +508,17 @@ nav a[aria-current="page"] {
         animation-duration: 0.01ms !important;
     }
 }
+
+.skip-lin {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+}
+
+.skip-link:focus {
+    left: 10px;
+    background-color: #ffffff;
+    color: #144d29;
+    padding: 10px;
+    z-index: 1000;
+}  
