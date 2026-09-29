@@ -43,8 +43,6 @@ export function iniciarValidacao() {
     formulario.addEventListener("submit", (event) => {
         event.preventDefault();
 
-        console.log("Formulário enviado!");
-
         const cpfValido = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/.test(cpf.value);
         const telefoneValido = /^\(\d{2}\) \d{5}-\d{4}$/.test(telefone.value);
         const cepValido = /^\d{5}-\d{3}$/.test(cep.value);

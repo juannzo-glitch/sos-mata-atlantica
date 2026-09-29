@@ -7,9 +7,7 @@ document.addEventListener("click", (event) => {
     }
     event.preventDefault();
     const pagina = link.dataset.pagina;
-    console.log("Clique detectado:", pagina);
     navegar(pagina);
 });
 
 navegar("inicio");
-console.log("Navegaçao SPA carregada!");
