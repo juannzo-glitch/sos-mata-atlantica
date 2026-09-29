@@ -523,6 +523,24 @@ nav a[aria-current="page"] {
     z-index: 1000;
 } 
 
+body.alto-contraste {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.alto-contraste header,
+body.alto-contraste footer,
+body.alto-contraste main,
+body.alto-contraste section,
+body.alto-contraste article {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.alto-contraste a {
+    color: #ffff00;
+}
+
 body.alto-contraste button {
     background-color: #ffffff;
     color: #000000;
